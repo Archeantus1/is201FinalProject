@@ -1,0 +1,115 @@
+/* Header Styling */
+.header{
+    position:absolute;
+    top: 0px;
+    height: 100px;  
+    left: 0px;
+    right: 0px;
+    background-image: url(../images/blackSand.jpeg);
+    font-size: 30px;
+    color:white;
+}
+
+.headerButton{
+    font-size: 30px;
+    color: white;
+    text-decoration: none;
+}
+.navButtons{
+    position: relative;
+    bottom: 0px !important;
+}
+
+/* Footer Styling */
+.footer{
+    position: fixed;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    height: 75px;
+    background-color: #454851;
+    z-index: 1;
+}
+
+.footerContent{
+    text-align: center;
+    color: white;
+    margin: 5px;
+}
+
+/* Main Body Styling */
+.mainBody{
+    position: absolute;
+    top: 100px;
+    left: 0px;
+    right: 0px;
+    height:fit-content;
+}
+
+.tableLeft{
+    position: relative;
+    top:0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    padding-right: 5px;
+    grid-column: 1;
+    grid-row: 1;
+    border-right: #454851 2px solid;
+    border-top: #454851 2px solid;
+}
+
+.tableRight{
+    position:relative;
+    top: 0px;
+    right: 0px;
+    width: 100%;
+    height: 100%;
+    padding-left: 5px;
+    grid-column: 2;
+    grid-row: 1;
+    border-left: #454851 2px solid;
+    border-top: #454851 2px solid;
+}
+.grid-container{
+    display: grid;
+    grid-template-columns: 50%;
+    justify-items: center;
+    margin-bottom:75px;
+    height: 50%;
+}
+.flexRow{
+    position:relative;
+    display: flex;
+    flex-direction: row;
+    align-items: stretch;
+    height: 25%;
+    padding-bottom: 5px;
+        
+}
+
+.captionLeft{
+    position: relative;
+    text-align: center;
+    vertical-align: middle;
+    width: 50%;
+    bottom: 0px;
+    background-color: #454851;
+    color: white;
+    margin: 0px;
+    grid-column: 1;
+    grid-row: 2;
+}
+
+.captionRight{
+    position: relative;
+    text-align: center;
+    width: 50%;
+    bottom: 0px;
+    right: 0px;
+    background-color: #454851;
+    color: white;
+    margin: 0px;
+    grid-column: 2;
+    grid-row: 2;
+}
